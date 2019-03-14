@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import { getEventEmitter } from '../event-emitter-singletone';
+import { getEventEmitter } from '../../event-emitter-singletone';
 
 const EventEmitterComponent = props => {
   useEffect(() => {
